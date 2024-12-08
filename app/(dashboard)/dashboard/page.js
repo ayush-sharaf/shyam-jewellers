@@ -50,7 +50,7 @@ export default function Dashboard() {
   const [isEditing, setIsEditing] = useState(false);
 
   const [previewInvoice, setPreviewInvoice] = useState(false);
-  const [gstNumber,setGstNumber]=useState("22DFWPS7048L1ZJ");
+  const [gstNumber,setGstNumber]=useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
