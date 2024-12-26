@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shyam Jewellers POS and Inventory Management System
 
-## Getting Started
+## Project Overview
+The **Shyam Jewellers POS and Inventory Management System** is a comprehensive solution designed to streamline the operations of a jewelry store. This system handles Point-of-Sale transactions, inventory tracking, and customer management with a user-friendly interface and robust backend architecture.
 
-First, run the development server:
+## Features
+- **Point of Sale (POS):** Efficiently handle sales transactions with support for discounts and taxes.
+- **Inventory Management:** Track stock levels, categorize products, and generate low-stock alerts.
+- **Customer Management:** Maintain customer profiles and purchase history.
+- **User Authentication:** Secure login and sign-up powered by Clerk.
+- **Reports and Analytics:** Generate sales and inventory reports for better decision-making.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Authentication:** Clerk
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ayush-sharaf/shyam-jewellers.git
+   cd shyam-jewellers
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the app in your browser:**
+   - Visit `http://localhost:3000`.
+
+## Environment Variables
+Ensure to configure the following variables in your `.env` file:
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+1. **Admin Login:** Log in using admin credentials to access the dashboard.
+2. **Manage Inventory:** Add, update, or delete product entries.
+3. **Process Sales:** Use the POS module to handle sales transactions.
+4. **View Reports:** Generate sales and inventory reports from the analytics section.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
