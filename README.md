@@ -3,6 +3,8 @@
 ## Project Overview
 The **Shyam Jewellers POS and Inventory Management System** is a comprehensive solution designed to streamline the operations of a jewelry store. This system handles Point-of-Sale transactions, inventory tracking, and customer management with a user-friendly interface and robust backend architecture.
 
+🔗 [Live Demo](https://shyam-jewellers.vercel.app/)
+
 ## Features
 - **Point of Sale (POS):** Efficiently handle sales transactions with support for discounts and taxes.
 - **Inventory Management:** Track stock levels, categorize products, and generate low-stock alerts.
